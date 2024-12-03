@@ -6,5 +6,7 @@ interface Issue {
 
     fun day(): Int
 
-    fun solve(input: InputStream): String
+    fun solveFirst(input: InputStream): String
+
+    fun solveSecond(input: InputStream): String
 }
